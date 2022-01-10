@@ -1,0 +1,71 @@
+/* Began price page styling */
+.PriceMainContent {
+    margin-top: 100px;
+    padding: 70px 0px;
+}
+
+.PriceListLeft {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px 50px;
+}
+
+.PriceMenuItem {
+    border: 1px solid #F2E1BD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    width: auto;
+    height: 50px;
+    margin: 8px 0px;
+}
+
+.PriceMenuTitle h4 span{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.MenuItemPrice span{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.PriceOnlineBooking {
+    background-color: #D69D2B;
+    text-align: center;
+    padding: 12px 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.PriceOnlineBooking a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: 0.5s ease-in;
+    text-decoration: none;
+}
+
+.PriceOnlineBooking a:hover {
+    color: #000;
+}
+
+.PricerRightImages img {
+    width: auto;
+    height: 400px;
+    padding-left: 50px;
+    transition: 0.2s ease;
+}
+
+.PricerRightImages img:hover {
+    transform: scale(1.1);
+}

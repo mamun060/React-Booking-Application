@@ -1,0 +1,70 @@
+/* Top Header styling */
+.TopMenuContainer {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.TopMenuStyle {
+    margin-bottom: 50px;
+}
+.TopMenuStyle a {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.2px;
+    color: #fff!important;
+    line-height: inherit;
+    padding: 8px 18px!important;
+    transition: all 0.2s ease-in;
+}
+.TopMenuStyle a:hover {
+    color: #D69D2B!important;
+}
+
+.BtnOnlineBooking {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.2px;
+    background-color: #D69D2B;
+    color: #fff!important;
+    padding: 8px 18px!important;
+    border-radius: 5px;
+    margin: 0px 5px;
+	transition: all 0.2s ease-in;
+}
+
+.BtnOnlineBooking:hover {
+    background-color: #fff;
+    color: #000!important;
+}
+
+/* Start footer section styling */
+.FooterSection {
+    background-color: #000;
+}
+
+.footerLeftContent p {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.footerRightContent h4 {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-top: 20px;
+    text-align: right;
+}
+.footerRightContent h4 span{
+    color: #D69D2B;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-top: 20px;
+    text-align: right;
+}
