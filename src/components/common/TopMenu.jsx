@@ -17,7 +17,7 @@ export default function TopMenu() {
                     <Link to="/services">Service</Link>
                     <Link to="/price">Price</Link>
                     <Link to="/gallery">Gallery</Link>
-                    <Link to="#" className={styles.BtnOnlineBooking} eventKey={2} href="#memes">
+                    <Link to="/booking" className={styles.BtnOnlineBooking} eventKey={2} href="#memes">
                        Book Online
                     </Link>
                     </Nav>

@@ -1,7 +1,7 @@
 /* start grid service section styling */
 .GridServiceSection {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    /* margin-top: 100px; */
+    margin-bottom: 0px;
 }
 .ServiceHeading {
     text-align: left;
@@ -140,4 +140,10 @@
 .ListServiceBookBtn a:hover {
     background-color: #b97e08;
     color: #fff;
+}
+
+/* Service main page container */
+.ServiceSectionContainer {
+    margin-top: 100px;
+    margin-bottom: 50px;
 }

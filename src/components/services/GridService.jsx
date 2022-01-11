@@ -327,6 +327,154 @@ export default function GridService() {
                     </Col>
 
                 </Row>
+                <Row>
+
+                    <Col md={4}>
+                        <div className={styles.ServiceWrapping}>
+                            <div className={styles.ServiceBannerImage}>
+                                <img src={spa}  alt='images'/>
+                            </div>
+                            <div className={styles.ServiceTitle}>
+                                <h2>SPA service we provide</h2>
+                            </div>
+                            <div className={styles.serviceIconWrapping}>
+                                <ul>
+                                    <li><BsClock /><p>2:30PM</p></li>
+                                    <li><BsCurrencyPound /><p>50.0</p></li>
+                                    <li><GiOfficeChair /> <p>5</p></li>
+                                </ul>
+                            </div>
+                            
+                            <div className={styles.ServiceBookBtn}>
+                                <a href="#">Booking Online</a>
+                            </div>
+
+                        </div>
+                    </Col>
+
+                    <Col md={4}>
+                    <div className={styles.ServiceWrapping}>
+                            <div className={styles.ServiceBannerImage}>
+                                <img src={hairstyle}  alt='images'/>
+                            </div>
+                            <div className={styles.ServiceTitle}>
+                                <h2>SPA service we provide</h2>
+                            </div>
+                            <div className={styles.serviceIconWrapping}>
+                                <ul>
+                                    <li><BsClock /><p>2:30PM</p></li>
+                                    <li><BsCurrencyPound /><p>50.0</p></li>
+                                    <li><GiOfficeChair /> <p>5</p></li>
+                                </ul>
+                            </div>
+
+                            
+                            <div className={styles.ServiceBookBtn}>
+                                <a href="#">Booking Online</a>
+                            </div>
+
+                        </div>
+                    </Col>
+
+                    <Col md={4}>
+                    <div className={styles.ServiceWrapping}>
+                            <div className={styles.ServiceBannerImage}>
+                                <img src={haircut}  alt='images'/>
+                            </div>
+                            <div className={styles.ServiceTitle}>
+                                <h2>SPA service we provide</h2>
+                            </div>
+                            <div className={styles.serviceIconWrapping}>
+                                <ul>
+                                    <li><BsClock /><p>2:30PM</p></li>
+                                    <li><BsCurrencyPound /><p>50.0</p></li>
+                                    <li><GiOfficeChair /> <p>5</p></li>
+                                </ul>
+                            </div>
+
+                            
+                            <div className={styles.ServiceBookBtn}>
+                                <a href="#">Booking Online</a>
+                            </div>
+                            
+                        </div>
+                    </Col>
+
+                </Row>
+                <Row>
+
+                    <Col md={4}>
+                        <div className={styles.ServiceWrapping}>
+                            <div className={styles.ServiceBannerImage}>
+                                <img src={spa}  alt='images'/>
+                            </div>
+                            <div className={styles.ServiceTitle}>
+                                <h2>SPA service we provide</h2>
+                            </div>
+                            <div className={styles.serviceIconWrapping}>
+                                <ul>
+                                    <li><BsClock /><p>2:30PM</p></li>
+                                    <li><BsCurrencyPound /><p>50.0</p></li>
+                                    <li><GiOfficeChair /> <p>5</p></li>
+                                </ul>
+                            </div>
+                            
+                            <div className={styles.ServiceBookBtn}>
+                                <a href="#">Booking Online</a>
+                            </div>
+
+                        </div>
+                    </Col>
+
+                    <Col md={4}>
+                    <div className={styles.ServiceWrapping}>
+                            <div className={styles.ServiceBannerImage}>
+                                <img src={hairstyle}  alt='images'/>
+                            </div>
+                            <div className={styles.ServiceTitle}>
+                                <h2>SPA service we provide</h2>
+                            </div>
+                            <div className={styles.serviceIconWrapping}>
+                                <ul>
+                                    <li><BsClock /><p>2:30PM</p></li>
+                                    <li><BsCurrencyPound /><p>50.0</p></li>
+                                    <li><GiOfficeChair /> <p>5</p></li>
+                                </ul>
+                            </div>
+
+                            
+                            <div className={styles.ServiceBookBtn}>
+                                <a href="#">Booking Online</a>
+                            </div>
+
+                        </div>
+                    </Col>
+
+                    <Col md={4}>
+                    <div className={styles.ServiceWrapping}>
+                            <div className={styles.ServiceBannerImage}>
+                                <img src={haircut}  alt='images'/>
+                            </div>
+                            <div className={styles.ServiceTitle}>
+                                <h2>SPA service we provide</h2>
+                            </div>
+                            <div className={styles.serviceIconWrapping}>
+                                <ul>
+                                    <li><BsClock /><p>2:30PM</p></li>
+                                    <li><BsCurrencyPound /><p>50.0</p></li>
+                                    <li><GiOfficeChair /> <p>5</p></li>
+                                </ul>
+                            </div>
+
+                            
+                            <div className={styles.ServiceBookBtn}>
+                                <a href="#">Booking Online</a>
+                            </div>
+                            
+                        </div>
+                    </Col>
+
+                </Row>
 
             </Container>
           </Fragment>

@@ -1,19 +1,41 @@
 import {React, Fragment} from 'react'
+import { Container, Row, Col, Tab, Tabs} from 'react-bootstrap'
 import Footer from '../components/common/Footer'
 import TopMenu from '../components/common/TopMenu'
 import GridService from '../components/services/GridService'
 import ListingService from '../components/services/ListingService'
 import NormalService from '../components/services/NormalService'
-
+import styles from '../assets/css/Service.module.css';
+import { BsFillGridFill, BsListUl, BsCaretDownFill} from 'react-icons/bs';
 
 export default function ServicesPage() {
     return (
-        <Fragment>
-            <TopMenu />
-            <GridService />
-            {/* <ListingService /> */}
-            {/* <NormalService /> */}
-            <Footer />
-        </Fragment>
-    )
+        <div> 
+       
+            <Fragment>
+              <div className={styles.ServiceSectionContainer}>
+                <TopMenu />
+                  <Container >
+                    <Row>
+                        <Col>
+                        <Tabs defaultActiveKey="gridservice" id="uncontrolled-tab-example" className="mb-3">
+                            <Tab eventKey="gridservice" title={<BsFillGridFill />}>
+                                <GridService />
+                            </Tab>
+                            <Tab eventKey="listservice" title={<BsListUl />}>
+                                <ListingService />
+                            </Tab>
+                            <Tab eventKey="normalservice" title={<BsCaretDownFill />}>
+                                <NormalService />
+                            </Tab>
+                            </Tabs>
+                        </Col>
+                    </Row>
+                </Container>
+           </div>
+       <Footer />
+       </Fragment>
+       
+       </div>
+    );
 }
