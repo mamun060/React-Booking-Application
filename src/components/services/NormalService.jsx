@@ -20,7 +20,7 @@ export default function NormalService() {
                         </div>
 
                         <div className={styles.MiddleDotted}>
-                        --------------------
+                        -------
                         </div>
 
                         <div className={styles.MenuItemPrice}>
@@ -34,7 +34,7 @@ export default function NormalService() {
                         </div>
 
                         <div className={styles.MiddleDotted}>
-                        --------------------
+                        -------
                         </div>
 
                         <div className={styles.MenuItemPrice}>
@@ -48,7 +48,7 @@ export default function NormalService() {
                         </div>
 
                         <div className={styles.MiddleDotted}>
-                        --------------------
+                        -------
                         </div>
 
                         <div className={styles.MenuItemPrice}>
@@ -62,7 +62,7 @@ export default function NormalService() {
                         </div>
 
                         <div className={styles.MiddleDotted}>
-                        --------------------
+                        -------
                         </div>
 
                         <div className={styles.MenuItemPrice}>
@@ -76,7 +76,7 @@ export default function NormalService() {
                         </div>
 
                         <div className={styles.MiddleDotted}>
-                        --------------------
+                        -------
                         </div>
 
                         <div className={styles.MenuItemPrice}>
@@ -90,7 +90,7 @@ export default function NormalService() {
                         </div>
 
                         <div className={styles.MiddleDotted}>
-                        --------------------
+                        -------
                         </div>
 
                         <div className={styles.MenuItemPrice}>

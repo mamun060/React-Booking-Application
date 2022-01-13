@@ -1,6 +1,7 @@
 .react-calendar {
     margin: auto;
     margin-top: 80px;
+    border: none!important;
 }
 
 /* off years button link */
@@ -32,14 +33,14 @@ span.react-calendar__navigation__label__labelText.react-calendar__navigation__la
     align-items: center;
     /* margin: 20px 150px; */
     background-color: #fff;
-    box-shadow: aqua;
-    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    /* box-shadow: aqua;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px; */
     padding: 20px;
     border: none;
 }
 
 .react-calendar__month-view__weekdays {
-    background-color: rebeccapurple;
+    background-color: #D69D2B;
     color: #fff;
     text-decoration: none;
     padding: 10px 0px;
@@ -106,4 +107,10 @@ button.react-calendar__navigation__arrow.react-calendar__navigation__next-button
 
 button.react-calendar__navigation__arrow.react-calendar__navigation__next2-button {
     display: none;
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 667px)  {
+    abbr {
+        font-size: 12px;
+      }
 }

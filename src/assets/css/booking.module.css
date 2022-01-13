@@ -1,4 +1,102 @@
 .BookingCalendarContainer {
-    margin-top: 100px;
-    padding: 70px 50px;
+    margin-top: 50px;
+    padding: 70px 0px;
+}
+
+.serviceSelectOptionWrapping {
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+/* select button styling */
+
+/* .BookingCalendarRight {
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+} */
+
+.SelectButtonStyle {
+    padding: 20px;
+}
+
+/* Time slot design here */
+.TimeSlotTitle h2 {
+    font-size: 22px;
+    color: #000;
+    font-family: 'POPPINS', sans-serif;
+    padding-top: 28px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+
+.TimeSlotSectionArea {
+    width: auto;
+    height: 455px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.TimeSlotArea {
+    margin: 0px 5px;
+}
+
+.AllTimeSlotStyling {
+    display: flex;
+}
+.TimeSlotArea h4 a {
+    font-size: 14px;
+    color: #000!important;
+    font-family: 'POPPINS', sans-serif;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    border: 1px solid #D69D2B;
+}
+
+.TimeSlotArea h4 a:hover {
+    color: #fff!important;
+    background-color: #D69D2B;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+
+/* form  continue button section */
+.TimeSlotButtonSection {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.TimeSlotButtonSection a{
+    text-align: center;
+    background-color: #D69D2B;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 25px;
+    border-radius: 2px;
+}
+.TimeSlotButtonSection a:hover {
+    background-color: #fff;
+    color: #000!important;
+    border: 1px solid #D69D2B;
+}
+
+/* Mobile responsive isshu fix */
+@media only screen and (min-device-width: 280px) and (max-device-width: 667px) {
+    .TimeSlotContainer {
+        margin-top: 20px;
+    }
+    .TimeSlotSectionArea {
+        width: auto;
+        height: auto;
+        overflow: visible;
+        overflow-y: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }

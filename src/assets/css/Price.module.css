@@ -69,3 +69,37 @@
 .PricerRightImages img:hover {
     transform: scale(1.1);
 }
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 667px) {
+    .PriceListLeft {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 10px 0px;
+    }
+
+    .PriceMainContent {
+        margin-top: 100px;
+        padding: 10px 0px 20px 0px;
+    }
+
+    .PriceMenuItem { 
+    border: 1px solid #F2E1BD;
+    padding: 5px 5px;
+    margin: 15px 5px;
+    }
+
+    .PriceMenuTitle h4 span{
+        font-size: 14px;
+    }
+
+    .PriceOnlineBooking {
+        padding: 10px;
+        margin: 10px 5px;
+    }
+    .PricerRightImages img {
+        width: auto;
+        height: 380px;
+        transition: 0.2s ease;
+        padding: 30px;
+    }
+
+}

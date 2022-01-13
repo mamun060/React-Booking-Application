@@ -25,17 +25,19 @@
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.2px;
-    background-color: #D69D2B;
     color: #fff!important;
     padding: 8px 18px!important;
     border-radius: 5px;
     margin: 0px 5px;
 	transition: all 0.2s ease-in;
+    border: 1px solid #D69D2B;
+    z-index: 1;
 }
 
 .BtnOnlineBooking:hover {
     background-color: #fff;
-    color: #000!important;
+    color: #D69D2B!important;
+    z-index: 3;
 }
 
 /* Start footer section styling */
@@ -67,4 +69,31 @@
     font-weight: 600;
     padding-top: 20px;
     text-align: right;
+}
+
+/* Site logo style */
+
+.SalonAppLogo img{
+    width: auto;
+    height: 45px;
+}
+/* Responsive area section here and footer responsive*/
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 667px) {
+    .footerLeftContent p {
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .footerRightContent h4 {
+        font-size: 14px;
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .footerRightContent h4 span{
+        font-size: 14px;
+        text-align: center;
+        padding-top: 0px;
+    }
 }

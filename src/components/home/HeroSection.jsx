@@ -21,8 +21,8 @@ export default function HeroSection() {
                                 </p>
                             </div>
                             <div className={styles.HeroButtonWrapping}>
-                            <div className={styles.CallPhone}><a href="tel:07595183489">075952 183489</a></div>
-                            <div className={styles.BookOnlineBtn}><a href="#">Book Online</a></div>
+                                <div className={styles.CallPhone}><a href="tel:07595183489">075952 183489</a></div>
+                                <div className={styles.BookOnlineBtn}><a href="#">Book Online</a></div>
                             </div>
                         </Col>
 

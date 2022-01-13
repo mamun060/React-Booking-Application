@@ -26,7 +26,6 @@
     line-height: 40px;
 }
 
-
 .ServiceWrapping {
     margin-bottom: 30px;
     border: 0 !important;
@@ -146,4 +145,40 @@
 .ServiceSectionContainer {
     margin-top: 100px;
     margin-bottom: 50px;
+}
+
+/* Service all components responsive */
+@media only screen and (min-device-width: 280px) and (max-device-width: 667px) {
+   
+      .ServiceHeading h2{
+        font-size: 22px;
+        line-height: 7px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .ServiceHeading p {
+        font-size: 12px;
+        padding-top: 10px;
+        line-height: 20px;
+    }
+
+    .ServiceTitle h2 {
+        color: #000;
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        letter-spacing: 0.2px;
+        line-height: 20px;
+        padding: 30px 0px 10px 20px;
+    }
+
+    .ListServiceTitle h2 {
+        color: #000;
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 0.2px;
+        padding: 20px 0px 0px 20px;
+    }
 }

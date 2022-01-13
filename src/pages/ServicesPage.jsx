@@ -4,9 +4,8 @@ import Footer from '../components/common/Footer'
 import TopMenu from '../components/common/TopMenu'
 import GridService from '../components/services/GridService'
 import ListingService from '../components/services/ListingService'
-import NormalService from '../components/services/NormalService'
 import styles from '../assets/css/Service.module.css';
-import { BsFillGridFill, BsListUl, BsCaretDownFill} from 'react-icons/bs';
+import { BsFillGridFill, BsListUl} from 'react-icons/bs';
 
 export default function ServicesPage() {
     return (
@@ -18,16 +17,13 @@ export default function ServicesPage() {
                   <Container >
                     <Row>
                         <Col>
-                        <Tabs defaultActiveKey="gridservice" id="uncontrolled-tab-example" className="mb-3">
-                            <Tab eventKey="gridservice" title={<BsFillGridFill />}>
-                                <GridService />
-                            </Tab>
-                            <Tab eventKey="listservice" title={<BsListUl />}>
-                                <ListingService />
-                            </Tab>
-                            <Tab eventKey="normalservice" title={<BsCaretDownFill />}>
-                                <NormalService />
-                            </Tab>
+                           <Tabs defaultActiveKey="gridservice" id="uncontrolled-tab-example" className="mb-3">
+                                <Tab eventKey="gridservice" title={<BsFillGridFill />}>
+                                    <GridService />
+                                </Tab>
+                                <Tab eventKey="listservice" title={<BsListUl />}>
+                                    <ListingService />
+                                </Tab>
                             </Tabs>
                         </Col>
                     </Row>
