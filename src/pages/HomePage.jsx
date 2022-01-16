@@ -8,8 +8,8 @@ export default function HomePage() {
     return (
         <Fragment>
             <TopMenu />
-            <HeroSection />
-            <OpenTime />
+              <HeroSection />
+                <OpenTime />
             <Footer />
         </Fragment>
     )

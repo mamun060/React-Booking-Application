@@ -23,7 +23,6 @@ export default function BookingForm() {
 
                             <div className={styles.FormLeftFormSection}>
                               <Form>
-
                                     <Form.Group className="mb-3" controlId="">
                                         <Form.Control type="text" placeholder="Enter Your Name*" />
                                     </Form.Group>
@@ -39,7 +38,6 @@ export default function BookingForm() {
                                     <Button onClick={ handleClick } variant="primary" type="submit">
                                         Submit
                                     </Button>
-
                                 </Form>
                             </div>
 

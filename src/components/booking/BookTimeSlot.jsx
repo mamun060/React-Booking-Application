@@ -4,7 +4,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import styles from '../../assets/css/booking.module.css';
-import {Link} from 'react-router-dom';
 
 export default function BookTimeSlot() {
    
@@ -36,17 +35,17 @@ export default function BookTimeSlot() {
                                    <Col md={12}>
                                         <div className={styles.AllTimeSlotStyling}>
 
-                                            <div className={styles.TimeSlotArea}>
+                                            <div md={3} className={styles.TimeSlotArea}>
                                                 <h4><a href="#">{getTimes()}</a></h4>
                                             </div>
                                             
-                                            <div className={styles.TimeSlotArea}>
+                                            <div md={3} className={styles.TimeSlotArea}>
                                                 <h4><a href="#">{getTimes()}</a></h4>
                                             </div>
                                             <div className={styles.TimeSlotArea}>
                                                 <h4><a href="#">{getTimes()}</a></h4>
                                             </div>
-                                            
+                                             
                                         </div>
                                    </Col>
                                </Row>

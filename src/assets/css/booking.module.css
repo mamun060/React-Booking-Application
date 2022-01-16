@@ -32,11 +32,10 @@
 
 .TimeSlotSectionArea {
     width: auto;
-    height: 455px;
-    overflow: hidden;
-    overflow-y: scroll;
+    /* height: 455px; */
     padding-top: 10px;
     padding-bottom: 10px;
+    /* padding-left: 15px; */
 }
 
 .TimeSlotArea {
@@ -98,5 +97,8 @@
         overflow-y: none;
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+    .FourTimeSlotHere h4 a {
+        display: none;
     }
 }

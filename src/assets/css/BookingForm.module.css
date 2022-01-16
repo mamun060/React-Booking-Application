@@ -4,7 +4,10 @@
 }
 
 .BookFormLetfWrapping {
-    padding: 20px 0px;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 10px;
+    min-height: 350px;
 }
 
 .FormLeftTitleSeciton h4 {
@@ -26,7 +29,10 @@
 }
 
 .BookFormRightWrapping {
-    padding: 20px 0px;
+    padding: 20px 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 10px;
+    min-height: 350px;
 }
 .FormRightTitleSeciton h4 {
     font-size: 18px;
@@ -35,7 +41,7 @@
     letter-spacing: 0.2px;
     color: #000;
     line-height: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 

@@ -3,6 +3,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 import styles from '../../assets/css/Common.module.css';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/images/logo/Nadeem-Hair-Dressers-logo.png';
+import ModalButton from '../ModalForm/ModalButton';
 
 export default function TopMenu() {
     return (
@@ -18,9 +19,11 @@ export default function TopMenu() {
                     <Link to="/services">Service</Link>
                     <Link to="/price">Price</Link>
                     <Link to="/gallery">Gallery</Link>
-                    <Link to="/booking" className={styles.BtnOnlineBooking} eventKey={2} href="#memes">
+                    <p><ModalButton /></p>
+                     
+                    {/* <Link to="/booking" className={styles.BtnOnlineBooking} eventKey={2} href="#memes">
                        Book Online
-                    </Link>
+                    </Link> */}
                     </Nav>
                 </Navbar.Collapse>
                 </Container>

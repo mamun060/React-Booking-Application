@@ -53,3 +53,24 @@ a {
 .fbyhDd {
   display: none!important;
 }
+
+
+/* Modal form container section style here */
+@media (min-width: 992px) {
+  .modal-lg, .modal-xl {
+    max-width: 900px;
+ }
+}
+
+.form-container {
+  box-shadow: rgb(10 10 0 / 8%) 0px 8px 9px 10px;
+  padding: 20px;
+}
+
+.modal-header {
+  padding: 0.8rem 1rem!important;
+  border-bottom: none!important;
+  text-align: center;
+  font-size: 18px;
+  color: #000;
+}

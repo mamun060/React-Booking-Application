@@ -6,6 +6,7 @@ import ServicesPage from './pages/ServicesPage';
 import {Routes, Route} from 'react-router-dom';
 import BookingPage from './pages/BookingPage';
 import BookFormPage from './pages/BookFormPage';
+import MultiFormPage from './pages/MultiFormPage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/gallery" element={<GallleryPage />} />
         <Route path="/booking" element={<BookingPage />} />
         <Route path="/bookform" element={<BookFormPage />} />
+        <Route path="/form" element={<MultiFormPage />} />
       </Routes>
     </div>
   );
