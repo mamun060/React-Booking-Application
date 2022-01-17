@@ -32,3 +32,8 @@
 .FormInputWrapingUser input::placeholder {
     padding-left: 10px;
 }
+
+/* Multi form page booking */
+.SerivceTitle {
+    margin-bottom: 10px;
+}
