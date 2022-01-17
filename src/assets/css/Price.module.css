@@ -2,6 +2,7 @@
 .PriceMainContent {
     margin-top: 100px;
     padding: 70px 0px;
+    height: 85vh;
 }
 
 .PriceListLeft {
@@ -79,6 +80,7 @@
     .PriceMainContent {
         margin-top: 100px;
         padding: 10px 0px 20px 0px;
+        height: auto;
     }
 
     .PriceMenuItem { 

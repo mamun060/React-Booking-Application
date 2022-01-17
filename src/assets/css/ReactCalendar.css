@@ -2,6 +2,7 @@
     margin: auto;
     margin-top: 80px;
     border: none!important;
+    width: auto !important;
 }
 
 /* off years button link */
@@ -35,7 +36,7 @@ span.react-calendar__navigation__label__labelText.react-calendar__navigation__la
     background-color: #fff;
     /* box-shadow: aqua;
     box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px; */
-    padding: 20px;
+    padding: 10px 0px;
     border: none;
 }
 
@@ -98,19 +99,29 @@ button.react-calendar__navigation__arrow.react-calendar__navigation__prev2-butto
 }
 
 button.react-calendar__navigation__arrow.react-calendar__navigation__prev-button {
+    font-size: 45px !important;
     display: visible;
 }
 /* Right button done */
 button.react-calendar__navigation__arrow.react-calendar__navigation__next-button {
     display: visible;
+    font-size: 45px !important;
 }
 
 button.react-calendar__navigation__arrow.react-calendar__navigation__next2-button {
     display: none;
 }
 
+.react-calendar__navigation button{
+    min-width: auto !important;
+}
+
 @media only screen and (min-device-width: 280px) and (max-device-width: 667px)  {
     abbr {
         font-size: 12px;
-      }
+    }
+
+    span.react-calendar__navigation__label__labelText.react-calendar__navigation__label__labelText--from {
+        font-size: 16px;
+    }
 }

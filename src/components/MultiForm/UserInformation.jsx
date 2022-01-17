@@ -3,6 +3,8 @@ import { Container, Row, Col, Table } from 'react-bootstrap';
 import styles from '../../assets/css/MultiForm.module.css';
 import { RiUser2Fill } from 'react-icons/ri';
 import { MdEmail, MdPhoneLocked } from 'react-icons/md';
+import {BiTime} from 'react-icons/bi';
+import {AiOutlinePoundCircle} from 'react-icons/ai';
 
 class UserInformation extends Component {
     continue = e => {
@@ -64,51 +66,24 @@ class UserInformation extends Component {
                         </Col>
 
                         <Col md={6}>
-                      
-                            <Table striped bordered hover>
-                                <thead>
-    
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Location</td>
-                                        <td>Dhaka Nikunjo</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Service</td>
-                                        <td>{values.service}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Barber</td>
-                                        <td>{values.barber_id}
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Price</td>
-                                        <td> $10.00 </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Date</td>
-                                        <td>10/12/2022</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Time</td>
-                                        <td>{values.time_slot}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Name</td>
-                                        <td>{values.name}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Email</td>
-                                        <td>{values.gmail}</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Phone</td>
-                                        <td>{values.phone}</td>
-                                    </tr>
-                                </tbody>
-                            </Table>
+                            <div className={styles.userInformaitonTable}>
+
+                                <ul>
+                                    <li>Haircut with appointment</li>
+                                    <li>Alexa</li>
+                                </ul>
+                                <ul className={styles.UlLiPriceTimeSlot}>
+                                    <li className={styles.ChildTimeSlot}><AiOutlinePoundCircle />20.00</li>
+                                    <li><BiTime /> 10.00 - 10:15</li>
+                                </ul>
+                                <ul>
+                                    <li>10-01-2022</li>
+                                    <li>{values.name}</li>
+                                    <li>{values.gmail}</li>
+                                    <li>{values.phone}</li>
+                                </ul>
+
+                            </div>
                         </Col>
 
 

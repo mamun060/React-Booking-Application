@@ -5,6 +5,8 @@ import styles from '../../assets/css/Home.module.css';
 import { Container, Row, Col} from 'react-bootstrap';
 
 export default function OpenTime() {
+
+    
     return (
         <div>
              <div className={styles.MainContent}>

@@ -40,6 +40,17 @@
     z-index: 3;
 }
 
+.btn-outline-warning {
+    color: #d69328;
+    border-color: #d69d2b;
+}
+
+.btn-outline-warning:hover {
+    color: #fff !important;
+    background-color: #d69328 !important;
+    border-color: #d69328 !important;
+}
+
 /* Start footer section styling */
 .FooterSection {
     background-color: #000;

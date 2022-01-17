@@ -8,9 +8,9 @@ export default function ModalButton() {
 
     return (
         <Container>
-           <Button onClick={() => setModalShow(true)}>
-              Online Booking
-           </Button>
+            <Button variant='outline-warning' onClick={() => setModalShow(true)}>
+             Book Online
+            </Button>
     
           <ModalComponent
             show={modalShow}

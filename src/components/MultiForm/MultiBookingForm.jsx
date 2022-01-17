@@ -1,18 +1,78 @@
 import React, { Component } from 'react'
 import {Container, Form, Row, Col} from 'react-bootstrap';
 import Calendar from 'react-calendar';
+import Select from 'react-select';
 import styles from '../../assets/css/MultiForm.module.css';
 import BookTimeSlot from '../booking/BookTimeSlot';
 
 export class MultiBookingForm extends Component {
+
+    constructor(props){
+
+        super(props)
+
+        this.state = {
+            selectedService: this.serviceLocal ?? null,
+            selectedBarbar: this.selectedBarbar ?? null,
+        };
+
+        // call fetch or axios
+        this.options = [
+            { value: 'hair', label: 'Hair Cut' },
+            { value: 'facial', label: 'Facial' },
+            { value: 'spa', label: 'SPA' }
+        ];
+
+        this.options2 = [
+            { value: 'noor', label: 'Noor' },
+            { value: 'nadim', label: 'Nadim' },
+            { value: 'dalim', label: 'Dalim' }
+        ];
+    }
+
+    get serviceLocal() {
+        let storageItem = localStorage.getItem('selected_service');
+        return storageItem ? JSON.parse(storageItem) : null;
+    }
+
+    get selectedBarbar() {
+        let storageItem = localStorage.getItem('selected_barbar');
+        return storageItem ? JSON.parse(storageItem) : null;
+    }
+
+    setServiceLocal(serviceItem) {
+        return localStorage.setItem('selected_service', JSON.stringify(serviceItem));
+    }
+
+    setBarbarLocal(serviceItem) {
+        return localStorage.setItem('selected_barbar', JSON.stringify(serviceItem));
+    }
+
+
+    componentDidMount(){
+        console.log(this.state);
+    }
+
+    handleService = (option)=>{
+        this.setState({ selectedService: option});
+        this.setServiceLocal(option);
+    }
+
+    handleBarbar = (option)=>{
+        this.setState({ selectedBarbar: option});
+        this.setBarbarLocal(option);
+    }
+
+
     continue = e => {
         e.preventDefault();
         this.props.nextStep();
     };
 
     render() {
-        const { values, inputChange } = this.props;
-
+        const { values, inputChange }   = this.props;
+        this.props.values.service       = this.state.selectedService?.value;
+        console.log(this.props.values);
         return (
            <Container>
                 <div className="form-container">
@@ -21,20 +81,10 @@ export class MultiBookingForm extends Component {
 
                             <Row>
                                 <Col md={6}>
-                                    <Form.Select className={styles.SerivceTitle} name='service' onChange={inputChange('service')} value={values.service} aria-label="Default select example">
-                                        <option>Choose Your Service</option>
-                                        <option value="Hair">Hair </option>
-                                        <option value="SPA">SPA </option>
-                                        <option value="Haircut"> Haircut </option>
-                                    </Form.Select>
+                                    <Select className={styles.SelectServiceOption} name='service' options={this.options} onChange={this.handleService} value={this.state.selectedService} />
                                 </Col>
                                 <Col md={6}>
-                                    <Form.Select className={styles.SelectBarber} name='barber_id' onChange={inputChange('barber_id')} value={values.barber_id} aria-label="Default select example">
-                                        <option>Choose Barber</option>
-                                        <option value="Mamun">Mamun</option>
-                                        <option value="Noor">Noor</option>
-                                        <option value="Dalim">Dalim</option>
-                                    </Form.Select>
+                                    <Select name='barber_id' options={this.options2} onChange={this.handleBarbar} value={this.state.selectedBarbar} />
                                 </Col>
                             </Row>
                             <Calendar 

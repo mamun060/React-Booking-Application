@@ -85,6 +85,18 @@
     border: 1px solid #D69D2B;
 }
 
+.btnOutlineWarn{
+    color: #000;
+    background-color: transparent;
+    border-color: #d69d2b;
+}
+
+.btnOutlineWarn:hover {
+    color: #fff;
+    background-color: #d69d2b;
+    border-color: #d69d2b;
+}
+
 /* Mobile responsive isshu fix */
 @media only screen and (min-device-width: 280px) and (max-device-width: 667px) {
     .TimeSlotContainer {

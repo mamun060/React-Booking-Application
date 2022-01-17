@@ -65,14 +65,6 @@ class MultiForm extends Component {
                 );
             case 3:
                 return (
-                    <UserConfirmation
-                        nextStep={this.nextStep}
-                        prevStep={this.prevStep}
-                        values={values}
-                    />
-                );
-            case 4:
-                return (
                     <UserSuccsessMsg />
                 );
         }

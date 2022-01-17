@@ -33,7 +33,51 @@
     padding-left: 10px;
 }
 
+.userInformaitonTable {
+    margin-top: 20px;
+}
+.userInformaitonTable ul li {
+    list-style-type: none;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.userInformaitonTable {
+    border: 1px solid #ecf0f1;
+    padding: 20px 0px 0px;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.userInformaitonTable .UlLiPriceTimeSlot {
+    display: flex;
+}
+
+.UlLiPriceTimeSlot .ChildTimeSlot {
+    padding-right: 20px;
+}
+
+.UlLiPriceTimeSlot svg {
+    height: 20px;
+    width: 30px;
+    color: #d35400;
+}
+
 /* Multi form page booking */
-.SerivceTitle {
+.SelectServiceOption {
     margin-bottom: 10px;
+}
+
+
+/* Booking success message component styling */
+.BookSuccessMessage h2 {
+    font-size: 24px;
+    font-size: 500;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 15px 0px;
 }

@@ -6,7 +6,8 @@ import styles from '../../assets/css/Home.module.css';
 export default function HeroSection() {
 
     return (
-        <Fragment className={styles.HeroContainer}>
+        // className={styles.HeroContainer}
+        <Fragment>
             <div className={styles.HeroBgImage}>
                 <section className={styles.HeroSection}>
                 <Container>

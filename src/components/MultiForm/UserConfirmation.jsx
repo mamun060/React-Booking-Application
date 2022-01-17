@@ -4,7 +4,6 @@ import styles from '../../assets/css/MultiForm.module.css';
 class UserConfirmation extends Component {
     continue = e => {
         e.preventDefault();
-        alert("Confirm booking!");
         this.props.nextStep();
     };
 
