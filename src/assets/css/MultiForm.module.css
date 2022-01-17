@@ -47,24 +47,34 @@
 .userInformaitonTable {
     border: 1px solid #ecf0f1;
     padding: 20px 0px 0px;
-    margin-right: 50px;
+    margin-right: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.userInformaitonTable .ComingHeading {
+    font-size: 18px;
+    font-size: 400;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    padding-bottom: 10px;
+}
 .userInformaitonTable .UlLiPriceTimeSlot {
     display: flex;
 }
 
 .UlLiPriceTimeSlot .ChildTimeSlot {
     padding-right: 20px;
+    margin-left: -3px;
 }
 
-.UlLiPriceTimeSlot svg {
-    height: 20px;
-    width: 30px;
+.userInformaitonTable svg {
+    height: 18px;
+    width: 20px;
     color: #d35400;
+    padding-right: 10px;
+    padding: 2px 0px;
 }
 
 /* Multi form page booking */

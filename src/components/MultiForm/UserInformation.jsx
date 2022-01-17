@@ -5,6 +5,7 @@ import { RiUser2Fill } from 'react-icons/ri';
 import { MdEmail, MdPhoneLocked } from 'react-icons/md';
 import {BiTime} from 'react-icons/bi';
 import {AiOutlinePoundCircle} from 'react-icons/ai';
+import {BsCalendar2Date} from 'react-icons/bs';
 
 class UserInformation extends Component {
     continue = e => {
@@ -66,9 +67,12 @@ class UserInformation extends Component {
                         </Col>
 
                         <Col md={6}>
-                            <div className={styles.userInformaitonTable}>
 
+
+                            
+                            <div className={styles.userInformaitonTable}>
                                 <ul>
+                                    <li><h4 className={styles.ComingHeading}>Please arrive at least 5 minutes before your appointment time.</h4></li>
                                     <li>Haircut with appointment</li>
                                     <li>Alexa</li>
                                 </ul>
@@ -77,10 +81,10 @@ class UserInformation extends Component {
                                     <li><BiTime /> 10.00 - 10:15</li>
                                 </ul>
                                 <ul>
-                                    <li>10-01-2022</li>
-                                    <li>{values.name}</li>
-                                    <li>{values.gmail}</li>
-                                    <li>{values.phone}</li>
+                                    <li><BsCalendar2Date /> 10-01-2022</li>
+                                    <li><RiUser2Fill />{values.name}</li>
+                                    <li><MdEmail />{values.gmail}</li>
+                                    <li> <MdPhoneLocked />{values.phone}</li>
                                 </ul>
 
                             </div>
